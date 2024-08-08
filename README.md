@@ -59,20 +59,17 @@ To be successful in the cybersecurity field, focus on developing these skills:
 ## Cybersecurity Club Working Projects 🚧
 
 ### Secure File System 📁
-Status: Seeking Team Members
+**Status:** Seeking Team Members
 
-#### Roles/Teams:
-
-**Software Development Team**
-Expectations:
+#### Teams:
+**Software Development Team Expectations:**
 - Including security risk analysis in requirements, architecture, and design.
 - Incorporating testable security functions and features in requirements.
 - Including security functions and features in the design.
 - Integrating vulnerability detection in design and code reviews.
 - Implementing software on secure, hardened servers with no programmer access to the production environment.
 
-**Penetration Testing Team**
-Expectations:
+**Penetration Testing Team Expectations:**
 - Including risk-based security vulnerability testing and scanning during development and system testing.
 - Retesting regularly for security and patching any discovered or reported vulnerabilities.
 - Performing penetration testing during system test and operations.
