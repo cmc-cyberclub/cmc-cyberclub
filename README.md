@@ -1,82 +1,77 @@
-# Claremont CyberSecurity Club: About Us 🌟🛡️💻
+# Welcome to Active Projects at Claremont Cybersecurity Club! 🚀🔒
 
-The Claremont Cybersecurity Club is intended to be a space of development for all those interested in learning more about security or integrating it into their existing workflows. Whether you're interested in building secure software, integrating security into your design process, or understanding more about networking and penetrating systems, our club is the place for you to become more comfortable and competent in these areas.
+Hello, cyber enthusiasts! We're thrilled to have you explore our Active Projects hub. This is where ideas come to life, skills are sharpened, and the future of cybersecurity is shaped. Whether you're a seasoned pro or just starting your journey, there's a place for you here!
 
-Remember: Security shouldn't be an afterthought. It should be a conscious component taken just as seriously as any other general software considerations.
+## 🌟 What's Happening Here?
 
-## Software Engineering vs Security Roles 🔄
+Our Active Projects space is a dynamic environment where:
+- We tackle real-world cybersecurity challenges
+- Learn cutting-edge techniques and technologies
+- Collaborate on innovative solutions
+- Build a strong, supportive community of like-minded individuals
 
-Cybersecurity has traditionally been viewed as a subcategory of the broader information technology field. However, as developers and aspiring security professionals, we emphasize that security should be integrated into all aspects of software development and IT operations.
+## 🛠️ Current Projects
 
-## Core Cybersecurity Club Concepts 🎯
+Here's a snapshot of what we're actively working on:
 
-- Zero Trust 🔒
-- Least Privileged Access 🔑
-- Automation 🤖
-- On-Premises vs. Cloud ☁️
+1. **Research**: Conducting in-depth investigations into various cybersecurity topics
+2. **Secure-by-default**: Developing and implementing security measures that are effective from the outset
 
-## Security+ Training 📝
+*Check out each project folder for more details!*
 
-Security+ certification is a valuable asset in the cybersecurity field. Here's our approach:
+## 🤝 How You Can Contribute
 
-- We will have study groups to support your learning
-- Small group projects will be organized around specific topics for hands-on experience and reinforcement
-- Exam vouchers will be provided, and we'll sit for the exam together
+We believe everyone has something valuable to offer. Here's how you can get involved:
 
-## Team Projects 🏗️
+1. **Research and Expand**: 
+   - Dive deep into a topic and add your findings to the research project folder
+   - Example: "An Analysis of Recent Ransomware Trends" in the research folder
 
-We aim to recreate systems that mirror industry practices:
+2. **Lab Work**:
+   - Fork an existing lab, modify it, and add it to your GitHub
+   - Submit a pull request to include your enhanced version
+   - Example: "Implementing Secure-by-default Practices in a Sample Application"
 
-- Agile methodology
-- GitHub: We'll utilize the project planning subsection and assign roles for accountability in every project
-- Frequent (weekly) meetings to build out projects together and study
-- A CyberClub Slack channel will be set up for easy communication
-- A list of projects can be seen below. We welcome new ideas - bring them up in meetings, add them to the new idea Google form, or mention them to a club member to get started.
+3. **Start Something New**:
+   - Have a brilliant idea? Create a new project repository!
+   - Outline your concept, goals, and how others can contribute
+   - Example: "Automated Security Auditing Tool" as part of the secure-by-default initiative
 
-## Core Skills and Knowledge Areas 💪
+4. **Peer Review and Testing**:
+   - Offer to review code or test new tools developed by fellow members
+   - Provide constructive feedback and suggestions for improvement
 
-To be successful in the cybersecurity field, focus on developing these skills:
+5. **Documentation and Tutorials**:
+   - Help create or improve documentation for our projects
+   - Develop step-by-step tutorials to help newcomers get started with our research or secure-by-default practices
 
-### Enterprise Environments:
-- **Basic Knowledge of IT Infrastructure:** Understanding of various IT environments, including both on-premise and cloud-based systems, with familiarity in managing different services and platforms.
-- **Systems Administration:** Experience in managing and maintaining IT systems, including tasks like user account management, network configuration, and security practices.
+## 🌱 Why Your Contribution Matters
 
-### Technical Proficiency:
-- **Operating Systems:** Basic understanding and experience with different operating systems, including command-line usage and system administration.
-- **Scripting Languages:**
-  - **Python:** Proficiency in writing and debugging scripts for automation and problem-solving.
-  - **PowerShell/Other Scripting Languages:** Familiarity with scripting languages for task automation across various environments.
+By contributing to Active Projects, you're not just enhancing your own skills and knowledge. You're also:
+- Helping build a valuable resource for the CMC community
+- Gaining practical experience that stands out on your resume
+- Networking with peers and potential future colleagues
+- Making a real impact in the field of cybersecurity
 
-### Problem-Solving and Research:
-- **Critical Analysis:** Ability to critically analyze problems and develop solutions, particularly when encountering unfamiliar challenges.
-- **Research Skills:** Competence in gathering and synthesizing information from various sources to address technical issues.
+## 🚀 Getting Started
 
-### Interpersonal and Soft Skills:
-- **Communication Skills:** Strong verbal and written communication abilities, crucial for collaborating with teams and clearly explaining technical concepts.
-- **Project Management:** Capability to manage projects effectively, including planning, execution, and coordination across multiple stakeholders.
-- **Interpersonal Skills:** Ability to work well with colleagues from diverse backgrounds and experiences.
+1. Browse through our project folders (research and secure-by-default) to find something that interests you
+2. Read the `README.md` file in the project of your choice for specific guidelines
+3. Fork the repository, make your contributions, and submit a pull request
+4. Join our communication channels (Slack, Discord) to connect with project leads and other contributors
 
-## Cybersecurity Club Working Projects 🚧
+## 💡 Need Inspiration?
 
-### Secure File System 📁
-**Status:** Seeking Team Members
+Not sure where to start? Here are some ideas:
+- Conduct a literature review on a specific cybersecurity topic for the research project
+- Develop a checklist for implementing secure-by-default practices in web applications
+- Write a comprehensive guide on a specific cybersecurity tool or technique related to our projects
+- Analyze a recent high-profile security breach and propose preventive measures that align with secure-by-default principles
 
-#### Teams:
-**Software Development Team Expectations:**
-- Including security risk analysis in requirements, architecture, and design.
-- Incorporating testable security functions and features in requirements.
-- Including security functions and features in the design.
-- Integrating vulnerability detection in design and code reviews.
-- Implementing software on secure, hardened servers with no programmer access to the production environment.
+## 🤔 Questions or Ideas?
 
-**Penetration Testing Team Expectations:**
-- Including risk-based security vulnerability testing and scanning during development and system testing.
-- Retesting regularly for security and patching any discovered or reported vulnerabilities.
-- Performing penetration testing during system test and operations.
+We're always here to help! If you have any questions, need clarification, or want to discuss a new idea, don't hesitate to reach out. Contact our project coordinators or post in our community forums.
 
-Current Repo: https://github.com/FallynB/secure_file_vault
+Remember, in the world of cybersecurity, learning never stops. Your journey with us is just beginning, and we can't wait to see what you'll accomplish!
 
-
-## Get Involved! 🚀
-
-Join us in our mission to create a more secure digital future while fostering a vibrant, ethical, and technically proficient community at Claremont McKenna College!
+Happy hacking, and stay secure! 🛡️💻
