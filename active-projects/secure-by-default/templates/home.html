@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>Welcome to Secure File Vault</h2>
+    <p>Store and manage your files with confidence. Secure File Vault is your trusted platform for storing and managing files with top-notch security.</p>
+    <h3>Features</h3>
+    <ul>
+        <li>End-to-end encryption</li>
+        <li>Secure storage</li>
+        <li>Easy file management</li>
+    </ul>
+    {% if current_user.is_authenticated %}
+        <a href="{{ url_for('dashboard') }}" class="button">Go to Dashboard</a>
+    {% else %}
+        <a href="{{ url_for('login') }}" class="button">Login</a>
+        <a href="{{ url_for('register') }}" class="button">Register</a>
+    {% endif %}
+</div>
+{% endblock %}

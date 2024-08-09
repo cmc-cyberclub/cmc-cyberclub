@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background: #e8f5e9;  /* Light green background */
+  }
+  
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #1e88e5;  /* Blue header */
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #4caf50;  /* Green navigation bar */
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #45a049;
+    color: black;
+  }
+  
+  .content {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #1e88e5;  /* Blue footer */
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+  }
+  
+  input[type="text"], input[type="password"], input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"], .button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover, .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button.delete {
+    background-color: #f44336;
+  }
+  
+  .button.delete:hover {
+    background-color: #d32f2f;
+  }
+  
+  .flash {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* File list styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .file-info {
+    margin-bottom: 10px;
+  }
+  
+  .file-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
