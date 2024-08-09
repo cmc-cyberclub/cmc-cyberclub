@@ -1,0 +1,7 @@
+cryptography==43.0.0
+Flask==3.0.3
+Flask_Login==0.6.3
+flask_sqlalchemy==3.1.1
+flask_wtf==1.2.1
+python-dotenv==1.0.1
+Werkzeug==3.0.3

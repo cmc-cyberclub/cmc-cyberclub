@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>Register</h2>
+    <form method="POST">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div id="password-strength"></div>
+        
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+        
+        <input type="submit" value="Register">
+    </form>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+</div>
+
+<script>
+document.getElementById('password').addEventListener('input', function() {
+    var password = this.value;
+    var strength = 0;
+    var message = '';
+
+    if (password.length >= 14) strength++;
+    if (/[A-Z]/.test(password)) strength++;
+    if (/[a-z]/.test(password)) strength++;
+    if (/\d/.test(password)) strength++;
+    if (/[!@#$%^&*(),.?":{}|<>]/.test(password)) strength++;
+    if (/\s/.test(password)) strength++;
+
+    switch (strength) {
+        case 0:
+        case 1:
+        case 2:
+            message = 'Very weak';
+            break;
+        case 3:
+        case 4:
+            message = 'Moderate';
+            break;
+        case 5:
+            message = 'Strong';
+            break;
+        case 6:
+            message = 'Very strong';
+            break;
+    }
+
+    document.getElementById('password-strength').textContent = 'Password strength: ' + message;
+});
+</script>
+{% endblock %}

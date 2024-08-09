@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Flask instance folder
+instance/
+
+# Test cache
+.pytest_cache/
+
+# Code coverage
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE settings
+.idea/
+
+# Database
+*.db
+
+# Uploaded files
+uploads/
+secure_uploads/
+
+# Environment variables
+.env
+config.env
+
+# Sensitive scripts
+key_generator.py
+
+.env
+*.log
+config.py
+.DS_Store
